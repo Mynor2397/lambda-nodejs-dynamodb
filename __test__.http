@@ -1,0 +1,27 @@
+POST https://hks256mx04.execute-api.us-east-2.amazonaws.com/dev/candidates
+Content-Type: application/json
+
+{
+	"fullname":"Nancy",
+	"email": "nancy@gmail.com", 
+	"experience":3
+}
+
+###
+GET  https://hks256mx04.execute-api.us-east-2.amazonaws.com/dev/candidates
+
+
+###
+GET https://hks256mx04.execute-api.us-east-2.amazonaws.com/dev/candidates/d65ac130-758a-11ea-8d1c-a70c8104d3cf
+
+###
+PUT https://hks256mx04.execute-api.us-east-2.amazonaws.com/dev/candidates/d65ac130-758a-11ea-8d1c-a70c8104d3cf
+Content-Type: application/json
+
+{
+	"fullname":"Nancy Loyola",
+	"email": "nancy4@gmail.com"
+}
+
+###
+DELETE https://hks256mx04.execute-api.us-east-2.amazonaws.com/dev/candidates/d65ac130-758a-11ea-8d1c-a70c8104d3cf
